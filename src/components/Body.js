@@ -6,6 +6,8 @@ import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Header from "./Header";
 import TechStack from "./TechStack";
 import Login from "./Login";
+import Footer from "./Footer";
+import Dashboard from "./Dashboard";
 
 const Body = () => {
   const AppLayout = () => {
@@ -13,6 +15,7 @@ const Body = () => {
       <div>
         <Header />
         <Outlet />
+        <Footer />
       </div>
     );
   };
@@ -41,6 +44,10 @@ const Body = () => {
         {
           path: "/login",
           element: <Login />,
+        },
+        {
+          path: "/dashboard",
+          element: <Dashboard />,
         },
       ],
     },

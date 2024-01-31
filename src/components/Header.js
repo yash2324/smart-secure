@@ -24,6 +24,9 @@ const Header = () => {
           <Link to="/login" className="text-white">
             SignIn
           </Link>
+          <Link to="/dashboard" className="text-white">
+            Dashboard
+          </Link>
         </nav>
       </div>
     </header>

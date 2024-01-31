@@ -14,7 +14,7 @@ const featureVariants = {
     scale: 1,
     transition: { duration: 0.5, ease: "easeOut" },
   },
-  hover: { scale: 1.05 },
+  hover: { scale: 1.03 },
 };
 
 const Home = () => {
@@ -126,12 +126,12 @@ const Home = () => {
               resources and increase vigilance for specific crime types.
             </p>
           </div>
-          <div className="w-1/3 md:w-1/3 rounded-lg ml-auto">
+          <div className="w-1/3 md:w-1/3 rounded-lg ml-96">
             {/* Add an image or visualization for Feature 3 here */}
             <motion.img
               src={explainer}
               alt="Machine Learning Crime Prediction"
-              className="w-full h-full object-cover"
+              className="w-64"
               initial="hidden"
               animate="visible"
               variants={featureVariants}
@@ -155,12 +155,12 @@ const Home = () => {
               and targeted responses.
             </p>
           </div>
-          <div className="w-1/3 md:w-1/3 rounded-lg ml-auto">
+          <div className="w-1/3 md:w-1/3 rounded-lg ml-96">
             {/* Add an image or visualization for Feature 3 here */}
             <motion.img
               src="https://cdn-icons-png.flaticon.com/512/559/559384.png"
               alt="Machine Learning Crime Prediction"
-              className="w-full h-full object-cover"
+              className="w-64 object-cover"
               initial="hidden"
               animate="visible"
               variants={featureVariants}
