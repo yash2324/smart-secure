@@ -4,6 +4,8 @@ import AboutUs from "./AboutUs";
 import Reports from "./Reports";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Header from "./Header";
+import TechStack from "./TechStack";
+import Login from "./Login";
 
 const Body = () => {
   const AppLayout = () => {
@@ -31,6 +33,14 @@ const Body = () => {
         {
           path: "/reports",
           element: <Reports />,
+        },
+        {
+          path: "/techstack",
+          element: <TechStack />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
         },
       ],
     },
