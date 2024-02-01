@@ -27,8 +27,8 @@ const Login = () => {
       className="bg-cover  bg-center min-h-screen overflow-x-hidden"
       style={{ backgroundImage: `url('${backgroundImageUrl}')` }}
     >
-      <div className="relativemin-h-screen ">
-        <div className="relative mt-4  w-full">
+      <div className="relative min-h-screen ">
+        <div className="relative mt-40 w-full">
           <form
             onSubmit={(e) => e.preventDefault()}
             className="bg-black bg-opacity-50 p-8 mb-10 sm:p-12 lg:p-20 max-w-sm mx-auto flex flex-col"

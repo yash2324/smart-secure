@@ -31,7 +31,7 @@ const Homehead = () => {
           </motion.p>
           <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <Link
-              to="/login" // Replace with the actual section ID you want to scroll to
+              to="/dashboard" // Replace with the actual section ID you want to scroll to
               className="inline-flex items-center justify-center w-full px-6 py-3 mt-4 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               <svg

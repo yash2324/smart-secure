@@ -18,7 +18,7 @@ const Dashboard = () => {
     <div className={`bg-gray-900 text-white ${darkMode ? "dark" : ""}`}>
       <div className="container mx-auto flex justify-between items-center p-4">
         <div>
-          <h1 className="text-2xl font-semibold">Crime Dashboard</h1>
+          <h1 className="mt-10 text-2xl font-semibold">Crime Dashboard</h1>
           <p className="mb-2">Select your State and District:</p>
           {/* Add your state and district selection logic here */}
           {/* For simplicity, using a simple text input for now */}
