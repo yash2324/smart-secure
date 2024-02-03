@@ -201,7 +201,7 @@ const HomeRest = () => {
               insights to law enforcement, enabling them to proactively allocate
               resources and increase vigilance for specific crime types
             </p>
-            <div className="bg-gray-900 p-4 mt-8 mr-40 flex items-center justify-center">
+            <div className=" p-4 mt-8 mr-40 flex items-center justify-center">
               <Link to="/login">
                 <button className="bg-blue-500 text-white py-2 px-4 rounded flex items-center">
                   <svg

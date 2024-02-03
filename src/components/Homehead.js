@@ -15,11 +15,11 @@ const Homehead = () => {
             animate="visible"
             variants={featureVariants}
           >
-            Making a safer
-            <br /> India.
+            Making India
+            <br /> Safer.
           </motion.h1>
           <motion.p
-            className="max-w-2xl mb-6 font-light text-gray-500 md:mb-8 md:text-lg lg:text-xl"
+            className="max-w-2xl mb-6 font-light text-white md:mb-8 md:text-lg lg:text-xl"
             initial="hidden"
             animate="visible"
             variants={featureVariants}

@@ -8,6 +8,10 @@ import TechStack from "./TechStack";
 import Login from "./Login";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
+import ViolentCrimes from "./ViolentCrimes";
+import CrimesAgainstWomen from "./CrimesAgainstWomen";
+import PropertyCrimes from "./PropertyCrimes";
+import EconomicCrimes from "./EconomicCrimes";
 
 const Body = () => {
   const AppLayout = () => {
@@ -48,6 +52,22 @@ const Body = () => {
         {
           path: "/dashboard",
           element: <Dashboard />,
+        },
+        {
+          path: "/violentcrimes",
+          element: <ViolentCrimes />,
+        },
+        {
+          path: "/caw",
+          element: <CrimesAgainstWomen />,
+        },
+        {
+          path: "/propertycrimes",
+          element: <PropertyCrimes />,
+        },
+        {
+          path: "/economiccrimes",
+          element: <EconomicCrimes />,
         },
       ],
     },

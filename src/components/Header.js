@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="fixed w-full">
-      <nav className="bg-white border-gray-200 py-2.5 mb-40 dark:bg-gray-900">
+    <header className="fixed w-full ">
+      <nav className="bg-white border-gray-200 py-2.5  dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4">
           <Link to="/" className="flex items-center">
             <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">
